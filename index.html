@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Portfolio — Fiesta2k4</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="#">Fiesta2k4</a>
+                <nav class="nav" id="nav">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container hero-inner">
+                    <div class="avatar" aria-hidden="true"></div>
+                    <div class="hero-copy">
+                        <h1>Xin chào — I'm Fiesta</h1>
+                        <p class="lead">A creative developer building clean and accessible web experiences. I enjoy learning new things and shipping projects.</p>
+                        <div class="hero-ctas">
+                            <a class="btn primary" href="#projects">See projects</a>
+                            <a class="btn ghost" href="#contact">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about">
+                <div class="container">
+                    <h2>About</h2>
+                    <p>I'm an intern developer who likes building simple, beautiful front-end UIs and exploring back-end tooling. This is a small portfolio template you can edit to showcase your work.</p>
+                    <ul class="skills">
+                        <li>HTML &amp; CSS</li>
+                        <li>JavaScript (vanilla)</li>
+                        <li>Responsive design</li>
+                        <li>Accessibility basics</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects" class="section projects">
+                <div class="container">
+                    <h2>Projects</h2>
+                    <div class="grid">
+                        <article class="card">
+                            <h3>Project One</h3>
+                            <p>A short description of project one. Replace with your project details and link to GitHub or live demo.</p>
+                            <p class="muted">HTML • CSS • JS</p>
+                            <div class="card-actions"><a class="btn" href="#">View</a></div>
+                        </article>
+
+                        <article class="card">
+                            <h3>Project Two</h3>
+                            <p>Short description for project two. Use this area to highlight the problem and your approach.</p>
+                            <p class="muted">Node • Express</p>
+                            <div class="card-actions"><a class="btn" href="#">View</a></div>
+                        </article>
+
+                        <article class="card">
+                            <h3>Hello World</h3>
+                            <p>Legacy page preserved. <a href="hello_world.html">Open hello_world.html</a>.</p>
+                            <div class="card-actions"><a class="btn" href="hello_world.html">Open</a></div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <p>If you'd like to reach me, email <a href="mailto:you@example.com">you@example.com</a> or connect on GitHub.</p>
+                    <p class="tiny muted">Tip: replace the contact details in this file with your real email or links.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>© <span id="year"></span> Fiesta2k4 — Built with a simple portfolio template.</p>
+                <div class="foot-actions">
+                    <button id="theme-toggle" class="btn small">Toggle theme</button>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
